@@ -1,14 +1,14 @@
 {
     "name": "KLS-bot",
     "description": "KLS2douae  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg",
+    "logo": "https://telegra.ph/file/7c4284de81b244fe960f1.jpg",
     "keywords": ["whatsapp", "userbot", "kls", "bot", "ai" , "MD" ],
     "repository": "https://github.com/saad101024/saad101024",
     "website":   "",
     "success_url": "",
     "stack": "container",
      "env": {
-            "BOBIZ_SESSION": {
+            "KLS-SESSION": {
             "description": "qr session code",
             "required": true
              },
