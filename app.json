@@ -1,0 +1,93 @@
+{
+    "name": "KLS-bot",
+    "description": "KLS2douae  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg",
+    "keywords": ["whatsapp", "userbot", "kls", "bot", "ai" , "MD" ],
+    "repository": "https://github.com/saad101024/saad101024",
+    "website":   "",
+    "success_url": "",
+    "stack": "container",
+     "env": {
+            "BOBIZ_SESSION": {
+            "description": "qr session code",
+            "required": true
+             },
+             
+           
+           "URL_1NAME": {
+            "description": "",
+            "value": "Follow me on instagram" ,
+            "required": true
+      },
+           "URL_1LINK": {
+            "description": "",
+            "value": "http://instagram.com/kl3st_4" ,
+            "required": true
+      },
+     "URL_2NAME": {
+            "description": "",
+            "value": "LINK OF BOT " ,
+            "required": true
+      },
+       "URL_2LINK": {
+            "description": "",
+            "value": "https://github.com/saad101024/saad101024" ,
+            "required": true
+      },
+      
+      "ALIVE_MESSAGE": {
+            "description": "add text",
+            "value": "defaul", 
+            "required": true
+      },
+      "ALIVE_LOGO": {
+            "description": "add direct image url",
+            "value": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg" ,
+            "required": true
+      },
+     
+       "SONG_DOWN": {
+            "description": "song downloading text",
+            "value": "_Song downloading_ \n @Kls \n @douae" ,
+            "required": true
+      }, 
+        "SONG_UP": {
+            "description": "song uploading text",
+            "value": "_Song uploading text_ \n @kls \n @douae" ,
+            "required": true
+      },
+          "VIDEO_DOWN": {
+            "description": "video downloading text",
+            "value": "_video downloading_ \n @kls \n @douae" ,
+            "required": true
+      },
+          "VIDEO_UP": {
+            "description": "video uploading text",
+            "value": "_video uploading_ \n @kls \n @douae" ,
+            "required": true
+      },
+          "FILE_DOWN": {
+            "description": "file downloading text",
+            "value": "_file downloading_ \n @douae \n @kls" ,
+            "required": true
+      },
+          "FILE_UP": {
+            "description": "file uploading text",
+            "value": "_file uploading_ \n @kls \n @douae" ,
+            "required": true
+      },
+          "STIC_WM": {
+            "description": "حقوق الملصق",
+            "value": "KLS-Douae" ,
+            "required": true
+      }
+         
+        
+     },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
